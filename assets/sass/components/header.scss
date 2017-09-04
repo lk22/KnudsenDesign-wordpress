@@ -1,0 +1,32 @@
+.app_header{
+	height:70px;
+	width: 100%;
+	margin-left:0px;
+	margin-right:0px;
+	border-bottom: 1px solid #eee;
+	background: #D71F49;
+	color: #fff;
+	.brand{
+		padding: 1.5rem;
+		.navbar-brand{
+			padding-top:-1.5rem;
+		}
+	}
+
+	.nav-wrapper{
+		.menu{
+			float:right;
+			padding-top:2.5rem;
+			ul{
+				list-style-type:none;
+				.page_item{
+					display:inline;
+					margin-left: 1rem;
+					a{
+						color:#fff;
+					}
+				}
+			}
+		}
+	}
+}

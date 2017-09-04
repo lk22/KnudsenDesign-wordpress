@@ -6,5 +6,40 @@
  */
 /** google fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.app_header {
+  height: 70px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-bottom: 1px solid #eee;
+  background: #D71F49;
+  color: #fff;
+}
+
+.app_header .brand {
+  padding: 1.5rem;
+}
+
+.app_header .brand .navbar-brand {
+  padding-top: -1.5rem;
+}
+
+.app_header .nav-wrapper .menu {
+  float: right;
+  padding-top: 2.5rem;
+}
+
+.app_header .nav-wrapper .menu ul {
+  list-style-type: none;
+}
+
+.app_header .nav-wrapper .menu ul .page_item {
+  display: inline;
+  margin-left: 1rem;
+}
+
+.app_header .nav-wrapper .menu ul .page_item a {
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */

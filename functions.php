@@ -9,7 +9,7 @@ function theme_support() {
 	]);
 
 	register_nav_menus([
-		'header' => __('Header Menu'), // header menu 
+		'primary' => __('Primary Menu'), // header menu 
 		'footer' => __('Footer Menu') // footer menu
 	]);
 }
@@ -72,9 +72,25 @@ function load_components($components = []) {
 }
 
 function debug($data){
-	echo "<pre>";
-		var_dump($data);
-	echo "</pre>"; 
+	if($_SERVER['REMOTE_HOST'] === '127.0.0.1'){
+		echo "<pre>";
+	    var_dump($data);
+	    echo "</pre>";
+	} 
+}
+
+/**
+ * get title name of the page
+ *
+ * @return void
+ */
+function page_title(){
+      global $post;
+      return $post->post_title;
+}
+
+function add_menu($nav = ['theme_location' => 'primary']) {
+	wp_nav_menu($nav);
 }
 
 
