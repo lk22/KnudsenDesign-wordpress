@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA;;;;;GAKG;AAEH,mBAAmB;AACnB,iEAAY","file":"style.css","sourcesContent":["/** \n * Theme Name: Leo Knudsen\n * Author: Leo Knudsen\n * URI: leoknudsen.dk\n * Version: 1.0\n */\n\n/** google fonts */\n@import url('https://fonts.googleapis.com/css?family=Open+Sans');\n"]}

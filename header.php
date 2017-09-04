@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title><?php bloginfo('name'); ?></title>
+	<!-- show WordPress header -->
+	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
 </head>
-<body>
-
+<body <?php body_class(); ?>>
 <!-- init header here -->
+
+<main class="wrapper" id="wrapper">
+	
+	<?php load_components(['header']); ?>
