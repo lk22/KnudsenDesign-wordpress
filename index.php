@@ -18,7 +18,9 @@ if(have_posts()) {
 	}
 }
 
-
+/**
+ * get footer
+ */
 get_footer();
 
  ?>
