@@ -24,8 +24,8 @@
 			<!-- <strong><p class="contact-me">Lyder det noget for dig, lad os tage en snak over din ide</p></strong>
 			<p class="email">Email: lkdevelop2200@gmail.com</p>
 			<p class="phone">TLF: +45 27 45 94 67</p> -->
-			<h4 class="text-center see-more">Se mere</h4>
-			<h4 class="text-center see-more-icon"><i class="fa fa-angle-double-down"></i></h4>
+			<h4 class="text-center see-more hidden-xs">Se mere</h4>
+			<h4 class="text-center see-more-icon hidden-xs"><i class="fa fa-angle-double-down"></i></h4>
 		</div>
 	</div>
 	

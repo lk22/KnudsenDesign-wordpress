@@ -914,6 +914,71 @@
   min-height: 650px;
   width: 100%;
   padding: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+#contact .contact-information {
+  padding-top: 1.5rem;
+}
+
+#contact .contact-form {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p label .your-name .wpcf7-form-control, #contact .contact-form .wpcf7 .wpcf7-form p label .your-email .wpcf7-form-control, #contact .contact-form .wpcf7 .wpcf7-form p label .your-subject .wpcf7-form-control {
+  height: 30px;
+  border: 1.5px solid #16a085;
+  padding-left: 5px;
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  padding: 2rem;
+  font-size: 18px;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p label .your-name .wpcf7-form-control:hover, #contact .contact-form .wpcf7 .wpcf7-form p label .your-email .wpcf7-form-control:hover, #contact .contact-form .wpcf7 .wpcf7-form p label .your-subject .wpcf7-form-control:hover {
+  border-color: #3498db;
+  transition: ease-in-out 0.2s all;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p label .your-name .wpcf7-form-control:not(:hover), #contact .contact-form .wpcf7 .wpcf7-form p label .your-email .wpcf7-form-control:not(:hover), #contact .contact-form .wpcf7 .wpcf7-form p label .your-subject .wpcf7-form-control:not(:hover) {
+  transition: ease-in-out 0.2s all;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea {
+  padding: 2rem;
+  font-size: 18px;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  border: 1.5px solid #16a085;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea:hover {
+  border-color: #3498db;
+  transition: ease-in-out 0.2s all;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea:not(:hover) {
+  transition: ease-in-out 0.2s all;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit {
+  width: 73%;
+  height: 35px;
+  color: #fff;
+  background: #16a085;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit:hover {
+  background: #3498db;
+  transition: ease-in-out 0.2s all;
+}
+
+#contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit:not(:hover) {
+  transition: ease-in-out 0.2s all;
 }
 
 #about {
