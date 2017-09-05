@@ -14,7 +14,7 @@
 	<!-- <h4 class="text-center see-more-icon"><i class="fa fa-angle-double-down"></i></h4> -->
 	<div class="overlay col-md-6 col-lg-6">
 		<p class="name text-center">Leo Knudsen</p>
-		<hr>
+		<!-- <hr> -->
 
 		<p class="text-center headline">Brug for et nyt website?</p>
 		<p class="text-center tagline">Eller Hjælp til opstart af ny ide?</p>
