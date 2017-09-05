@@ -1,0 +1,45 @@
+{
+    "key": "group_59aec4efbd05d",
+    "title": "textfields",
+    "fields": [
+        {
+            "key": "field_59aec4f4c6ecd",
+            "label": "about_description",
+            "name": "about_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "custom_fields"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1504626078
+}

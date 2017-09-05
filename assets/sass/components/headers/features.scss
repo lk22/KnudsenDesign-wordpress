@@ -1,8 +1,19 @@
 #features {
 	min-height: 650px;
-	background: #fff;
-	padding: 1.5rem;
+	background: #eee;
+	padding: 5rem;
 	color: #000;
+	font-family: 'Raleway', sans-serif;
 	
-	
+	.feature{
+		padding: 5rem;
+		
+		.caption{
+			font-weight:bold;
+		}
+		
+		img{
+			border: 3px solid #fff;
+		}
+	}
 }

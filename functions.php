@@ -80,6 +80,10 @@ function debug($data){
 	} 
 }
 
+function get_media($file){
+	
+}
+
 /**
  * get title name of the page
  *
