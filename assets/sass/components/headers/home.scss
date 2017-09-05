@@ -1,0 +1,26 @@
+.home-content{
+	padding-top:70px;
+	min-height: 650px;
+	width: 100%;
+	background: url('http://leoknudsen.dev/wp-content/uploads/2017/09/apple-692186_1920.jpg') center center;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Open Sans';
+	padding: 10rem;
+	
+	.headline{
+		font-size: 50px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+	}
+
+	.tagline{
+		margin-bottom: 56px;
+		font-size: 40px;
+	}
+
+	.contact-me{
+		margin-top: 25rem;
+	}
+}

@@ -59,7 +59,7 @@ function add_widget_support()
 // load widgets
 add_action('widgets_init', 'add_widget_support');
 
-function load_components($components = []) {
+function load_files($files = []) {
 	if(is_null($components)) {
 		echo '<pre>Components not found</pre>';
 	}
