@@ -59,7 +59,7 @@ function add_widget_support()
 // load widgets
 add_action('widgets_init', 'add_widget_support');
 
-function load_files($files = []) {
+function load_components($components = []) {
 	if(is_null($components)) {
 		echo '<pre>Components not found</pre>';
 	}
@@ -70,6 +70,7 @@ function load_files($files = []) {
 
 	}
 }
+
 
 function debug($data){
 	if($_SERVER['REMOTE_HOST'] === '127.0.0.1'){

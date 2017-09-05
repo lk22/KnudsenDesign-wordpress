@@ -5,32 +5,52 @@
  * Version: 1.0
  */
 /** google fonts */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 .home-content {
-  padding-top: 70px;
-  min-height: 650px;
+  min-height: 550px;
   width: 100%;
   background: url("http://leoknudsen.dev/wp-content/uploads/2017/09/apple-692186_1920.jpg") center center;
   background-size: cover;
   color: #fff;
-  font-family: 'Open Sans';
-  padding: 10rem;
+  font-family: 'Raleway';
+  margin-left: 0px;
+}
+
+.home-content .overlay {
+  min-height: 550px;
+  background: #16a085;
+  opacity: 0.9;
+  margin-left: -2rem;
+}
+
+.home-content .overlay .headline, .home-content .overlay .tagline, .home-content .overlay .description {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+}
+
+.home-content .overlay .contact {
+  bottom: 40px;
+  padding: 1.5rem;
+  position: absolute;
 }
 
 .home-content .headline {
-  font-size: 50px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
+  font-size: 25px;
+  letter-spacing: 0px;
+  margin: 2rem;
 }
 
 .home-content .tagline {
-  margin-bottom: 56px;
-  font-size: 40px;
+  font-size: 25px;
+  margin: 2rem;
 }
 
 .home-content .contact-me {
   margin-top: 25rem;
+}
+
+.home-content .description {
+  font-size: 18px;
 }
 
 .app_header {
@@ -38,18 +58,17 @@
   width: 100%;
   margin-left: 0px;
   margin-right: 0px;
-  border-bottom: 1px solid #eee;
   background: #000;
   color: #fff;
 }
 
 .app_header .brand {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .app_header .brand .navbar-brand {
   padding-top: -1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Raleway' sans-serif;
 }
 
 .app_header .nav-wrapper .menu {

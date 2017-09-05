@@ -15,6 +15,13 @@
 </div>
 <?php } else { ?>
 
-	<?php load_pages([]);?>
+	<?php 
+		/**
+		 * getting specific sections
+		 */
+		load_components([
+			'headers/home'
+		]);
+	?>
 
 <?php } ?>

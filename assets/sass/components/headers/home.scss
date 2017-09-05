@@ -1,26 +1,47 @@
 .home-content{
-	padding-top:70px;
-	min-height: 650px;
+	min-height: 550px;
 	width: 100%;
 	background: url('http://leoknudsen.dev/wp-content/uploads/2017/09/apple-692186_1920.jpg') center center;
 	background-size: cover;
 	color: #fff;
-	font-family: 'Open Sans';
-	padding: 10rem;
+	font-family: 'Raleway';
+	margin-left: 0px;
+	
+	.overlay{
+		min-height: 550px;
+		background: #16a085;
+		opacity: 0.9;
+		margin-left:-2rem;
+		
+		.headline, .tagline, .description{
+			margin-bottom: 2.5rem;
+			padding: 1.5rem;
+		}
+
+		.contact{
+			bottom:40px;
+			padding: 1.5rem;
+			position: absolute;
+		}
+	}
 	
 	.headline{
-		font-size: 50px;
-		letter-spacing: 3px;
-		text-transform: uppercase;
-		margin-bottom: 2rem;
+		font-size: 25px;
+		letter-spacing: 0px;
+		margin: 2rem;
+		
 	}
 
 	.tagline{
-		margin-bottom: 56px;
-		font-size: 40px;
+		font-size: 25px;
+		margin: 2rem;
 	}
 
 	.contact-me{
 		margin-top: 25rem;
+	}
+
+	.description{
+		font-size:18px;
 	}
 }
