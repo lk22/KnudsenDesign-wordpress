@@ -10,7 +10,7 @@
 
 				?>
 		
-					<div class="col-md-4 col-lg-4 feature">
+					<div class="col-sm-6 col-md-4 col-lg-4 feature">
 					<div class="overlay">
 						<h3 class="text-center caption"><?php echo $feature['caption']; ?></h3>
 						<h4 class="text-center description"><?php echo $feature['description']; ?></h4>

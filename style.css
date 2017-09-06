@@ -955,6 +955,20 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 501px) and (max-width: 590px) {
+  #contact .contact-form .wpcf7 .wpcf7-form {
+    margin-left: 15%;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 591px) and (max-width: 767px) {
+  #contact .contact-form .wpcf7 .wpcf7-form {
+    margin-left: 15%;
+    mnargin-right: 15%;
+  }
+}
+
 #contact .contact-form .wpcf7 .wpcf7-form p label .your-name .wpcf7-form-control, #contact .contact-form .wpcf7 .wpcf7-form p label .your-email .wpcf7-form-control, #contact .contact-form .wpcf7 .wpcf7-form p label .your-subject .wpcf7-form-control {
   height: 30px;
   border: 1.5px solid #16a085;
@@ -966,7 +980,15 @@
   font-size: 18px;
 }
 
+@media screen and (min-width: 500px) and (max-width: 991px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p label .your-name .wpcf7-form-control, #contact .contact-form .wpcf7 .wpcf7-form p label .your-email .wpcf7-form-control, #contact .contact-form .wpcf7 .wpcf7-form p label .your-subject .wpcf7-form-control {
+    width: 100%;
+  }
+}
+
 #contact .contact-form .wpcf7 .wpcf7-form p label .your-name .wpcf7-form-control:hover, #contact .contact-form .wpcf7 .wpcf7-form p label .your-email .wpcf7-form-control:hover, #contact .contact-form .wpcf7 .wpcf7-form p label .your-subject .wpcf7-form-control:hover {
+  background: #3498db;
+  color: #fff;
   border-color: #3498db;
   transition: ease-in-out 0.2s all;
 }
@@ -984,6 +1006,12 @@
 }
 
 @media screen and (max-width: 400px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea {
     width: 100%;
   }
@@ -1008,6 +1036,24 @@
 }
 
 @media screen and (max-width: 400px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 765px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit {
     width: 100%;
   }
