@@ -41,7 +41,7 @@
                 "id": ""
             },
             "min": "",
-            "max": 3,
+            "max": "",
             "insert": "append",
             "library": "all",
             "min_width": "",
@@ -65,7 +65,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "9"
+                "value": "41"
             }
         ]
     ],
@@ -80,5 +80,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1504615377
+    "modified": 1504697733
 }

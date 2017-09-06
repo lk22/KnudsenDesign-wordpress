@@ -46,6 +46,10 @@
 								text-align:center;
 								border: 1.5px solid #16a085;
 								
+								@media screen and(max-width: 400px) {
+									width: 100%;
+								}
+								
 								&:hover{
 									border-color: #3498db;
 									transition:ease-in-out 0.2s all;
@@ -62,9 +66,13 @@
 						width:73%;
 						height:35px;
 						color: #fff;
-						background: #16a085;
+						background: #1abc9c;
 						border:none;
 						border-radius: 5px 5px 5px 5px;
+						
+						@media screen and(max-width: 400px) {
+							width: 100%;
+						}
 						
 						&:hover{
 							background: #3498db;

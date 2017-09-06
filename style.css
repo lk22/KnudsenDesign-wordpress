@@ -831,6 +831,7 @@
   opacity: 0.9;
   margin-left: -2rem;
   padding: 0;
+  margin-right: -2rem;
 }
 
 .home-content .overlay hr {
@@ -892,22 +893,50 @@
 
 #features {
   min-height: 650px;
-  background: #eee;
+  background: #F6F7F9;
   padding: 5rem;
   color: #000;
   font-family: 'Raleway', sans-serif;
 }
 
 #features .feature {
+  margin-top: 1rem;
   padding: 5rem;
+  border: 1.5px solid #eee;
+  margin-left: 0rem;
+}
+
+#features .feature:hover .overlay {
+  display: block;
+  transition: ease-in-out 0.2s all;
+}
+
+#features .feature:not(:hover) .overlay {
+  transition: ease-in-out 0.2s all;
+}
+
+#features .feature .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #16a085;
+  top: 0px;
+  left: 0pxpx;
+  right: 0px;
+  bottom: 0px;
+  color: #fff;
+  padding: 2rem;
+  opacity: 0.9;
+  display: none;
 }
 
 #features .feature .caption {
+  margin-top: 2rem;
   font-weight: bold;
 }
 
-#features .feature img {
-  border: 3px solid #fff;
+#features .feature .description {
+  margin-top: 2rem;
 }
 
 #contact {
@@ -954,6 +983,12 @@
   border: 1.5px solid #16a085;
 }
 
+@media screen and (max-width: 400px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea {
+    width: 100%;
+  }
+}
+
 #contact .contact-form .wpcf7 .wpcf7-form p label .your-message .wpcf7-textarea:hover {
   border-color: #3498db;
   transition: ease-in-out 0.2s all;
@@ -967,9 +1002,15 @@
   width: 73%;
   height: 35px;
   color: #fff;
-  background: #16a085;
+  background: #1abc9c;
   border: none;
   border-radius: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 400px) {
+  #contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit {
+    width: 100%;
+  }
 }
 
 #contact .contact-form .wpcf7 .wpcf7-form p .wpcf7-submit:hover {
