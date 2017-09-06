@@ -950,6 +950,16 @@
   padding-top: 1.5rem;
 }
 
+#contact .contact-information .email::-moz-selection, #contact .contact-information .phone::-moz-selection {
+  background: #1abc9c;
+  color: #fff;
+}
+
+#contact .contact-information .email::selection, #contact .contact-information .phone::selection {
+  background: #1abc9c;
+  color: #fff;
+}
+
 #contact .contact-form {
   padding: 2rem;
   margin: 0 auto;
@@ -1163,6 +1173,10 @@
 
 .app_footer .social-media .twitter a {
   color: #1da1f2;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

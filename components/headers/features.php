@@ -15,7 +15,7 @@
 						<h3 class="text-center caption"><?php echo $feature['caption']; ?></h3>
 						<h4 class="text-center description"><?php echo $feature['description']; ?></h4>
 					</div>
-						<img class="center-block img img-response" height="150" width="150" src="<?php echo $feature['sizes']['medium'];?>" alt="<?php echo $feature['alt']; ?>">
+						<img class="center-block img img-response" height="250" width="250" src="<?php echo $feature['sizes']['medium'];?>" alt="<?php echo $feature['alt']; ?>">
 					</div>
 
 				<?php
